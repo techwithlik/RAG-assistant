@@ -2,8 +2,6 @@
 
 An intelligent chatbot that lets you **chat with your PDFs**, powered by **FAISS + DeepSeek + Ollama**. Upload any document and ask questions in natural language — get answers grounded in your file with Retrieval-Augmented Generation (RAG).
 
-![screenshot](preview.png)
-
 ---
 
 ## ✨ Features
