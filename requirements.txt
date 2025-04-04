@@ -1,0 +1,7 @@
+streamlit
+ollama
+faiss-cpu
+numpy
+sentence-transformers
+PyPDF2
+python-docx
