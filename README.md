@@ -1,17 +1,48 @@
-# Simple AI Flashcard Generator
+# 📚 AI PDF Chatbot with FAISS (RAG-powered)
 
-An AI-powered tool that extracts key concepts from study materials (PDFs) and generates structured Q&A flashcards. Ideal for students, educators, and self-learners! 🚀
+An intelligent chatbot that lets you **chat with your PDFs**, powered by **FAISS + DeepSeek + Ollama**. Upload any document and ask questions in natural language — get answers grounded in your file with Retrieval-Augmented Generation (RAG).
+
+![screenshot](preview.png)
+
+---
 
 ## ✨ Features
-- 📂 Upload PDF documents  
-- 🔍 Extracts text from selected pages  
-- 🤖 Generates structured flashcards using AI  
-- 📥 Download flashcards in CSV or DOCX format  
-- 🌍 Deployable on Streamlit  
 
-## 📦 Installation
+- 🧠 **DeepSeek RAG**: Powerful responses from your PDF content only
+- 📁 **PDF Upload**: Select page ranges to narrow focus
+- 🧩 **Smart Chunking**: Document split into overlapping chunks for better context
+- 🔍 **FAISS Semantic Search**: Efficient retrieval of relevant chunks
+- 💬 **Chat Interface**: Conversation history maintained across questions
+- ⚡ **Local & Fast**: Runs with Ollama locally – no OpenAI key needed
 
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/yourusername/AI-Flashcard-Generator.git
-cd AI-Flashcard-Generator
+---
+
+## 🚀 Setup
+### 1. Install Requirements
+pip install streamlit PyPDF2 faiss-cpu sentence-transformers
+### 2. Install and Run Ollama
+### 3. Run the streamlit app
+---
+
+## 📌 Use Cases
+- Study notes assistant
+- Academic paper Q&A
+- Chat with policies, manuals, or reports
+- Foundation for flashcard generation or document summarization
+
+---
+
+## 🔧 Roadmap Ideas
+- 📝 Flashcard generation toggle
+- 💾 Multi-file persistent vector DB
+- 📄 Support DOCX and TXT
+- 🗃️ Save/load conversation history
+
+---
+
+## 🧠 Credits
+- Ollama
+- DeepSeek
+- FAISS
+- SentenceTransformers
+- Streamlit
